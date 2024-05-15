@@ -16,7 +16,7 @@ public class DBConnectionexample {
 		//jdbc:mysql://localhost:3306/selenium_user","root"."root"
 	     Statement sta = connect.createStatement();
 	     ResultSet   result   = sta.executeQuery("select * From My_Tablename");
-	     Thread.sleep(2000);	
+	     Thread.sleep(3000);	
 	     while(result.next()){
 	    	 System.out.println("Name:"+result.getString(1));
 	    	 
